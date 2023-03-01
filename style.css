@@ -1,0 +1,69 @@
+:root {
+    --body-bg-color: #fdf7fd;
+    --purple: #BB99DD;
+    --font-family: 'Poppins';
+    --align: center;
+  }
+
+  .circle {
+    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    stroke: 2px solid #BB99DD;
+   
+  
+  }
+  
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 250px;
+   
+  }
+  
+
+
+
+  h1 {
+  
+    font-size: 20px;
+    line-height: 24px;
+    color: #BB99DD;
+    text-align: center;
+  }
+   
+
+
+    div {
+      margin:auto;
+      width:500px;
+    }
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista li {
+   
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 2px solid #BB99DD;
+    border-radius: 5px;
+    color: #BB99DD;
+  }
+
+  footer { 
+    display: flex;
+    justify-content: center;
+   }
+
+
+  
+  
